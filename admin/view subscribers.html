@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>view subscribers</title>
+    <link rel="stylesheet" href="./assets/CSS/admin.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./admin files//assets/dist/css/bootstrap.min.css">
+    <style>
+        .vehicle-content {
+            width: 100vw;
+            height: 100vh;
+            border: 1px solid black;
+        }
+        
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .web-name {
+            position: absolute;
+            left: 36%;
+            top: 4%;
+            font-size: 278%;
+        }
+        
+        .web-name span {
+            position: absolute;
+            left: 102%;
+            top: 4%;
+            font-size: 97%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <input type="checkbox" name="" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <img src="../assets/logo/D2.png" alt="brand">
+            <div class="web-name">rent <span style="color: red;"> D</span></div>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="dashboard page.html"><span class="las la-igloo"></span>
+        <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-users"></span>
+        <span>Add Vehicle Brands</span></a>
+                </li>
+                <li>
+                    <a href="./view brand.html"><span class="lab la-vnv"></span>
+        <span>View Brand</span></a>
+                </li>
+                <li>
+                    <a href="./view subscribers.html" class="active"><span class="las la-car"></span>
+        <span>View Subscribers</span></a>
+                </li>
+                <li>
+                    <a href="./view subscribers.html"><span class="las la-shopping-bag"></span>
+        <span>View Bookinng</span></a>
+                </li>
+                <li>
+                    <a href="./admin files/bs4_testimonials.html"><span class="lab la-speakap"></span>
+        <span>view Testimonials</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-address-card"></span>
+        <span>Contact us Queries</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-comment"></span>
+        <span>Update Page</span></a>
+                </li>
+                <li>
+                    <li>
+                        <a href=""><span class="las la-comment"></span>
+            <span>Manage Vehicles</span></a>
+                    </li>
+
+                    <div class="admin-login">
+                        <a href="Admin Login.html"><button >Log Out</button> </a>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Sidebar -->
+
+
+
+    <!-- Main content -->
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+        <span class="las la-bars"></span>
+    </label>
+            </h2>
+
+
+            <div class="user-wrapper">
+                <img src="../assets/images/sk3.png" width="40px" height="40px" alt="">
+
+
+                <div>
+                    <h4>sk cephas</h4>
+                    <small>Creative Admin</small>
+                </div>
+            </div>
+
+        </header>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="container bootstrap snippets bootdey">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-box no-header clearfix">
+                        <div class="main-box-body clearfix">
+                            <div class="table-responsive">
+                                <table class="table user-list">
+                                    <thead>
+                                        <tr>
+                                            <th><span>subscribers</span></th>
+                                            <th><span>Created</span></th>
+                                            <th class="text-center"><span>Status</span></th>
+                                            <th><span>Email</span></th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="https://bootdey.com/img/Content/user_1.jpg" alt="">
+                                                <a href="#" class="user-link">Fuad Mohammed</a>
+                                                <span class="user-subhead">Member</span>
+                                            </td>
+                                            <td>2013/08/12</td>
+                                            <td class="text-center">
+                                                <span class="label label-default">pending</span>
+                                            </td>
+                                            <td>
+                                                <a href="#">marlon@brando.com</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="#" class="table-link text-warning">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link text-info">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link danger">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="https://bootdey.com/img/Content/user_3.jpg" alt="">
+                                                <a href="#" class="user-link">sk cephas</a>
+                                                <span class="user-subhead">Admin</span>
+                                            </td>
+                                            <td>2013/08/12</td>
+                                            <td class="text-center">
+                                                <span class="label label-success">Active</span>
+                                            </td>
+                                            <td>
+                                                <a href="#">marlon@brando.com</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="#" class="table-link  text-warning">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link  text-info">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link danger">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="https://bootdey.com/img/Content/user_2.jpg" alt="">
+                                                <a href="#" class="user-link">Skato Bright</a>
+                                                <span class="user-subhead">Member</span>
+                                            </td>
+                                            <td>2013/08/12</td>
+                                            <td class="text-center">
+                                                <span class="label label-danger">inactive</span>
+                                            </td>
+                                            <td>
+                                                <a href="#">marlon@brando.com</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="#" class="table-link  text-warning">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link  text-info">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link danger">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="https://bootdey.com/img/Content/user_2.jpg" alt="">
+                                                <a href="#" class="user-link">jerfferson  Anyniguw</a>
+                                                <span class="user-subhead">Member</span>
+                                            </td>
+                                            <td>2013/08/12</td>
+                                            <td class="text-center">
+                                                <span class="label label-danger">inactive</span>
+                                            </td>
+                                            <td>
+                                                <a href="#">marlon@brando.com</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="#" class="table-link  text-warning">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link  text-info">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link danger">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="https://bootdey.com/img/Content/user_2.jpg" alt="">
+                                                <a href="#" class="user-link">Francis Uno</a>
+                                                <span class="user-subhead">Member</span>
+                                            </td>
+                                            <td>2013/08/12</td>
+                                            <td class="text-center">
+                                                <span class="label label-danger">inactive</span>
+                                            </td>
+                                            <td>
+                                                <a href="#">marlon@brando.com</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="#" class="table-link  text-warning">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link  text-info">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link danger">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="https://bootdey.com/img/Content/user_2.jpg" alt="">
+                                                <a href="#" class="user-link">sodzedo vida</a>
+                                                <span class="user-subhead">Member</span>
+                                            </td>
+                                            <td>2013/08/12</td>
+                                            <td class="text-center">
+                                                <span class="label label-danger">inactive</span>
+                                            </td>
+                                            <td>
+                                                <a href="#">marlon@brando.com</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="#" class="table-link  text-warning">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link  text-info">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link danger">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <img src="https://bootdey.com/img/Content/user_2.jpg" alt="">
+                                                <a href="#" class="user-link">Eric Bright</a>
+                                                <span class="user-subhead">Member</span>
+                                            </td>
+                                            <td>2013/08/12</td>
+                                            <td class="text-center">
+                                                <span class="label label-danger">inactive</span>
+                                            </td>
+                                            <td>
+                                                <a href="#">marlon@brando.com</a>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="#" class="table-link  text-warning">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link  text-info">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="table-link danger">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
